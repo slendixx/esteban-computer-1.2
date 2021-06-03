@@ -1,0 +1,9 @@
+function ec1:scoreboards/call_stack1
+function ec1:scoreboards/call_stack_intructions
+function ec1:scoreboards/condition_codes
+function ec1:scoreboards/cpu_regs
+function ec1:scoreboards/dt_instructions
+function ec1:scoreboards/errors 
+function ec1:scoreboards/interruptions
+function ec1:scoreboards/mem1
+function ec1:scoreboards/mem2

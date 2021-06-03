@@ -1,0 +1,1 @@
+execute if score continue interr matches 1 run scoreboard players set interrRegister interr 2

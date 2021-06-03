@@ -1,0 +1,88 @@
+[
+  {
+    "nemonic": "ld1",
+    "opcode": 110
+  },
+  {
+    "nemonic": "ldi1",
+    "opcode": 111
+  },
+  {
+    "nemonic": "ld2",
+    "opcode": 120
+  },
+  {
+    "nemonic": "ldi2",
+    "opcode": 121
+  },
+  {
+    "nemonic": "st",
+    "opcode": 130
+  },
+  {
+    "nemonic": "add",
+    "opcode": 200
+  },
+
+  {
+    "nemonic": "addcc",
+    "opcode": 201
+  },
+  {
+    "nemonic": "sub",
+    "opcode": 210
+  },
+  {
+    "nemonic": "subcc",
+    "opcode": 211
+  },
+  {
+    "nemonic": "mul",
+    "opcode": 220
+  },
+  {
+    "nemonic": "mulcc",
+    "opcode": 221
+  },
+  {
+    "nemonic": "div",
+    "opcode": 230
+  },
+  {
+    "nemonic": "divcc",
+    "opcode": 231
+  },
+  {
+    "nemonic": "mod",
+    "opcode": 240
+  },
+
+  {
+    "nemonic": "modcc",
+    "opcode": 241
+  },
+  {
+    "nemonic": "bu",
+    "opcode": 320
+  },
+  {
+    "nemonic": "bz",
+    "opcode": 300
+  },
+  {
+    "nemonic": "bpos",
+    "opcode": 301
+  },
+  {
+    "nemonic": "bneg",
+    "opcode": 311
+  },
+  {
+    "nemonic": "call",
+    "opcode": 330
+  },
+  {
+    "nemonic": "ret",
+    "opcode": 331
+  }
+]

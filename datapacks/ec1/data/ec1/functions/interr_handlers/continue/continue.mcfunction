@@ -1,0 +1,1 @@
+scoreboard players set interrRegister interr 0

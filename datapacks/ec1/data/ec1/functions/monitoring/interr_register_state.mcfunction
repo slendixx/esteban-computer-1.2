@@ -1,0 +1,6 @@
+execute if score interrRegister interr matches 0 run data merge block ~ ~1 ~ {Text1:'{"text":"interrRegister"}',Text2:'{"text":"state"}',Text3:'{"text":"ok"}',Text4:'{"text":""}',Color:"green"}
+execute if score interrRegister interr matches 1 run data merge block ~ ~1 ~ {Text1:'{"text":"interrRegister"}',Text2:'{"text":"state"}',Text3:'{"text":"pause"}',Text4:'{"text":""}',Color:"blue"}
+execute if score interrRegister interr matches 2 run data merge block ~ ~1 ~ {Text1:'{"text":"interrRegister"}',Text2:'{"text":"state"}',Text3:'{"text":"continue"}',Text4:'{"text":""}',Color:"blue"}
+execute if score interrRegister interr matches 3 run data merge block ~ ~1 ~ {Text1:'{"text":"interrRegister"}',Text2:'{"text":"state"}',Text3:'{"text":"call stack"}',Text4:'{"text":"overflow"}',Color:"red"}
+execute if score interrRegister interr matches 4 run data merge block ~ ~1 ~ {Text1:'{"text":"interrRegister"}',Text2:'{"text":"state"}',Text3:'{"text":"call stack"}',Text4:'{"text":"pointer neg"}',Color:"red"}
+# execute if score interrRegister interr matches 5 run data merge block ~ ~1 ~ {Text1:'{"text":"interrRegister"}',Text2:'{"text":"state"}',Text3:'{"text":"unknown"}',Text4:'{"text":"instruction"}',Color:"red"}

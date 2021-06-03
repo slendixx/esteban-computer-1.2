@@ -1,0 +1,37 @@
+<create an array and some array manipulation subroutines>
+#p_array array
+$array_max_size 100
+
+;org 200
+<100 elements array start>
+:array
+
+;org 300
+<The subroutine readArr is used to retrieve data from an array data structure>
+:readArr_vars <subroutine local variables>
+    $readArr_arg 0
+    #readArr_p_arg readArr_arg
+    $readArr_return 0
+    #readArr_p_return readArr_return
+    $readArr_accessedElement 0
+:readArr_proc <subroutine procedure. What it does>
+    ldi1 p_array
+    ldi2 readArr_p_arg
+    add
+    st readArr_accessedElement
+    ldi1 readArr_accessedElement
+    ld2 0
+    add
+    sti readArr_p_return
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+#syscArg1 0
+#syscArg2 0
+#syscArg3 0
+#syscArg4 0
+:SYSC_READ
+	<syscArg1: pointer to buffer>
+	<syscArg2: chars to read>
+
+
+:SYSC_WRITE
+	
